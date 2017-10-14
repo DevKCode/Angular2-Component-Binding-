@@ -1,5 +1,5 @@
 <div class="container-fluid ">
     <app-cockpit></app-cockpit>
     <hr>
-    <app-server-element *ngFor="let servers of serverElement"></app-server-element>
+    <app-server-element *ngFor="let servers of serverElement" [servers]="servers"></app-server-element>
 </div>
